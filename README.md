@@ -36,6 +36,21 @@
 - **Font Sizes**: Responsive scale from 0.75rem to 3rem
 - **Line Height**: 1.6 for optimal readability
 
+- ##  Testing
+
+### Browser Compatibility
+Tested on:
+- Chrome (Latest)
+- Firefox (Latest)
+- Safari (Latest)
+- Edge (Latest)
+
+### Device Testing
+- Mobile phones (320px+)
+- Tablets (768px+)
+- Desktop computers (1024px+)
+- Large screens (1440px+)
+
 - ### Changing Colors
 Edit the CSS custom properties in `css/styles.css`:
 ```css
