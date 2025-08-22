@@ -7,7 +7,17 @@ document.addEventListener('DOMContentLoaded', function() {
     initBackToTop();
     initScrollObserver();
 });
-
+function sendMail(){
+    let params={
+        name:document.getElementById("name").value,
+        email:document.getElementById("email").value,
+        phone:document.getElementById("phone").value,
+        company:document.getElementById("company").value,
+        service:document.getElementById("service").value,
+        message:document.getElementById("message").value,
+    }
+    emailjs.send("service_g5qo4y4","template_gglu84r",params).then(alert("Email Sent!!"))
+}
 
 function initNavigation() {
     const navbar = document.getElementById('navbar');
@@ -565,3 +575,4 @@ function initPerformanceMonitoring() {
 
 
 document.addEventListener('DOMContentLoaded', initPerformanceMonitoring);
+
